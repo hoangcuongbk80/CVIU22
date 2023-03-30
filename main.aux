@@ -1,0 +1,209 @@
+\relax 
+\emailauthor{hoangcuongbk80@gmail.com; cuonghd7@fe.edu.vn}{Dinh-Cuong \snm {Hoang}\corref {cor1}}
+\citation{hoang2022context}
+\Newlabel{cor1}{1}
+\Newlabel{cor1}{2}
+\citation{munoz2016fast}
+\citation{zeng2017multi}
+\citation{bohg2013data}
+\citation{besl1992method}
+\citation{dias2014sift}
+\citation{wu20196d}
+\citation{wang2019densefusion}
+\citation{mahler2017dex}
+\citation{mahler2018dex}
+\citation{redmon2015real}
+\citation{lenz2015deep}
+\citation{ten2017grasp}
+\citation{mousavian20196}
+\citation{liang2019pointnetgpd}
+\citation{fang2020graspnet}
+\Newlabel{1}{a}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\newlabel{sec:intro}{{1}{1}}
+\citation{qi2017pointnet++}
+\citation{qi2019deep}
+\citation{ten2017grasp}
+\citation{herzog2012template}
+\citation{liang2019pointnetgpd}
+\citation{qi2017pointnet}
+\citation{mousavian20196}
+\citation{ten2017grasp}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}}
+\newlabel{sec:related_work}{{2}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}3D Point Cloud Based Grasp Detection}{2}}
+\citation{fang2020graspnet}
+\citation{ni2020pointnet++}
+\citation{choi2018learning}
+\citation{hough1959machine}
+\citation{hough1962method}
+\citation{duda1972textordfeminineuse}
+\citation{gall2013class}
+\citation{gall2011hough}
+\citation{gall2011hough}
+\citation{kalviainen1996motion}
+\citation{golemati2006comparison}
+\citation{iocchi2001probabilistic}
+\citation{deng2018ppfnet}
+\citation{rabbani2005efficient}
+\citation{silberberg1984iterative}
+\citation{tombari2010object}
+\citation{tombari2010object}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Hough Voting in Object Detection}{3}}
+\citation{kehl2016deep}
+\citation{qi2019deep}
+\citation{liu2016ssd}
+\citation{song2016deep}
+\citation{hou20193d}
+\citation{kehl2016deep}
+\citation{kehl2016deep}
+\citation{deng2018ppfnet}
+\citation{ye20183d}
+\citation{hu2018semantic}
+\citation{shi2019hierarchy}
+\citation{xie2018attentional}
+\citation{zhang2019pcan}
+\citation{paigwar2019attentional}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Context and Attention in 3D point clouds}{4}}
+\citation{hoang2022context}
+\citation{qi2019deep}
+\citation{qi2019deep}
+\citation{kehl2017ssd}
+\citation{peng2019pvnet}
+\citation{qi2019deep}
+\citation{vaswani2017attention}
+\citation{xie2018attentional}
+\citation{wang2018non}
+\citation{fu2019dual}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Proposed method}{5}}
+\newlabel{sec:method}{{3}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}VoteGrasp}{5}}
+\newlabel{sec:vote_grasp}{{3.1}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces VoteGrasp model using voting architecture and attention module for 6-DOF grasp detection in point cloud data. Our model conducts several self-attention modules discussed in section 3.2\hbox {} following Hough voting network (\leavevmode {\color  {cyan}\cite  {qi2019deep}}) to learn contextual information. Green grasps refer to highest quality grasps and red ones refer to lowest quality grasps.\relax }}{6}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:VoteGrasp}{{1}{6}}
+\newlabel{eq:VoteGrasp_compute_context}{{1}{6}}
+\citation{qi2018frustum}
+\citation{ren2015faster}
+\citation{wang2018non}
+\citation{buades2005non}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Non-local block diagram. The input feature is transformed by $1 \times 1 \times 1$ convolutions. $``\otimes "$ denotes matrix multiplication, and $``\oplus "$ denotes element-wise sum.\relax }}{7}}
+\newlabel{fig:non_local}{{2}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Attentions}{7}}
+\newlabel{sec:attentions}{{3.2}{7}}
+\newlabel{eq: non_local_comp_response}{{5}{7}}
+\newlabel{eq: non_local_comp_z}{{6}{7}}
+\citation{huang2019ccnet}
+\citation{hu2018squeeze}
+\citation{yue2018compact}
+\newlabel{eq:SE_F_squeeze}{{7}{8}}
+\newlabel{eq:SE_F_excitation}{{8}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Criss-cross block architecture captures interdependencies in vertical and horizontal directions. The block consists of two criss-cross operations to capture interdependencies of all pixels. The differences in shades of green represent different meanings that a pixel contributes to the target pixel (red). Similarly, the differences in shades of yellow illustrate the wealth of contextual information.\relax }}{9}}
+\newlabel{fig:criss-cross}{{3}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Squeeze-and-Excitation block focuses on the channel relationship of input feature. Different colors depict the distribution of channel information.\relax }}{9}}
+\newlabel{fig:SE}{{4}{9}}
+\newlabel{eq:CGNL_reshape_transform}{{10}{9}}
+\newlabel{eq:CGNL_compute_response}{{13}{9}}
+\citation{fu2019dual}
+\citation{woo2018cbam}
+\citation{feng2020point}
+\citation{zhao2021point}
+\citation{vaswani2017attention}
+\citation{zhao2020exploring}
+\citation{zhao2020exploring}
+\newlabel{fig:Dual_attention}{{\caption@xref {fig:Dual_attention}{ on input line 139}}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Architecture of dual attention network includes two module of position attention and channel attention. The output feature is rich of position context and channel context.\relax }}{11}}
+\newlabel{eq:alpha_point_attention}{{14}{11}}
+\newlabel{eq:p_i_point_attention}{{15}{11}}
+\newlabel{eq: point_transformer}{{16}{11}}
+\citation{zhao2020exploring}
+\citation{fang2020graspnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Local-global architecture of Point-attention block contains Local Attention-Edge Convolution module and Point-wise spatial attention. The first module searches a target point's 16 neighbors within a ball and computes a new feature map, which is enriched with geometric information of neighbors. The thickness of lines connecting the center point to neighbors refers to different contributing values. After enlarging local representation, the second module captures global correlations.\relax }}{12}}
+\newlabel{fig:point_attention}{{6}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation}{12}}
+\newlabel{sec:Experiments}{{4}{12}}
+\citation{fang2020graspnet}
+\citation{fang2020graspnet}
+\citation{qi2017pointnet++}
+\citation{qi2017pointnet++}
+\citation{qi2017pointnet++}
+\citation{fang2020graspnet}
+\citation{ten2017grasp,fang2020graspnet}
+\citation{fang2020graspnet}
+\citation{fang2020graspnet}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}GraspNet-1Billion}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Implementation}{13}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Layer parameters of the PointNet++ (\leavevmode {\color  {cyan}\cite  {qi2017pointnet++}}) based feature learning network.\relax }}{13}}
+\newlabel{tab:layer_specs}{{1}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Metrics}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Results}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Examples of input point clouds and predicted grasps from VoteGrasp combining with different attention module; (a) experiment objects; (b) input point cloud; (c) Non-local; (d) Criss-cross; (e) Squeeze-and-Excitation; (f) Compact Generalized Non-local; (g) Dual Attention Network; (h) Convolution Block Attention Module; (i) Point attention; (j) Point transformer. The different intensity of grasp color denotes the confident score of grasps. Red refers to the highest quality grasps and blue refers to the lowest ones.\relax }}{14}}
+\newlabel{fig:grasp_pred_result}{{7}{14}}
+\bibstyle{model2-names}
+\bibdata{refs}
+\bibcite{besl1992method}{{1}{1992}{{Besl and McKay}}{{}}}
+\bibcite{bohg2013data}{{2}{2013}{{Bohg et~al.}}{{Bohg, Morales, Asfour and Kragic}}}
+\bibcite{buades2005non}{{3}{2005}{{Buades et~al.}}{{Buades, Coll and Morel}}}
+\bibcite{choi2018learning}{{4}{2018}{{Choi et~al.}}{{Choi, Schwarting, DelPreto and Rus}}}
+\bibcite{deng2018ppfnet}{{5}{2018}{{Deng et~al.}}{{Deng, Birdal and Ilic}}}
+\bibcite{dias2014sift}{{6}{2014}{{Dias et~al.}}{{Dias, Brites, Ascenso and Pereira}}}
+\bibcite{duda1972textordfeminineuse}{{7}{1972}{{Duda and Hart}}{{}}}
+\bibcite{fang2020graspnet}{{8}{2020}{{Fang et~al.}}{{Fang, Wang, Gou and Lu}}}
+\bibcite{feng2020point}{{9}{2020}{{Feng et~al.}}{{Feng, Zhang, Lin, Gilani and Mian}}}
+\bibcite{fu2019dual}{{10}{2019}{{Fu et~al.}}{{Fu, Liu, Tian, Li, Bao, Fang and Lu}}}
+\bibcite{gall2013class}{{11}{2013}{{Gall and Lempitsky}}{{}}}
+\bibcite{gall2011hough}{{12}{2011}{{Gall et~al.}}{{Gall, Yao, Razavi, Van~Gool and Lempitsky}}}
+\bibcite{golemati2006comparison}{{13}{2006}{{Golemati et~al.}}{{Golemati, Stoitsis, Balkizas and Nikita}}}
+\bibcite{herzog2012template}{{14}{2012}{{Herzog et~al.}}{{Herzog, Pastor, Kalakrishnan, Righetti, Asfour and Schaal}}}
+\bibcite{hoang2022context}{{15}{2022}{{Hoang et~al.}}{{Hoang, Stork and Stoyanov}}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Inference Time of VoteGrasp with different attention modules, evaluated on GraspNet-1Billion (\leavevmode {\color  {cyan}\cite  {fang2020graspnet}}) dataset.\relax }}{15}}
+\newlabel{tab:real_ex}{{2}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{15}}
+\bibcite{hou20193d}{{16}{2019}{{Hou et~al.}}{{Hou, Dai and Nie{\ss }ner}}}
+\bibcite{hough1959machine}{{17}{1959}{{Hough}}{{}}}
+\bibcite{hough1962method}{{18}{1962}{{Hough}}{{}}}
+\bibcite{hu2018squeeze}{{19}{2018a}{{Hu et~al.}}{{Hu, Shen and Sun}}}
+\bibcite{hu2018semantic}{{20}{2018b}{{Hu et~al.}}{{Hu, Cai and Lai}}}
+\bibcite{huang2019ccnet}{{21}{2019}{{Huang et~al.}}{{Huang, Wang, Huang, Huang, Wei and Liu}}}
+\bibcite{iocchi2001probabilistic}{{22}{2001}{{Iocchi et~al.}}{{Iocchi, Mastrantuono and Nardi}}}
+\bibcite{kalviainen1996motion}{{23}{1996}{{Kalviainen}}{{}}}
+\bibcite{kehl2017ssd}{{24}{2017}{{Kehl et~al.}}{{Kehl, Manhardt, Tombari, Ilic and Navab}}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces The table shows the results on GraspNet-1Billion test set captured by RealSense sensor.\relax }}{16}}
+\newlabel{tab:grasp_detect_eval_RealSense}{{3}{16}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces The table shows the results on GraspNet-1Billion test set captured by Kinect sensors respectively.\relax }}{16}}
+\newlabel{tab:grasp_detect_eval_Kinect}{{4}{16}}
+\bibcite{kehl2016deep}{{25}{2016}{{Kehl et~al.}}{{Kehl, Milletari, Tombari, Ilic and Navab}}}
+\bibcite{lenz2015deep}{{26}{2015}{{Lenz et~al.}}{{Lenz, Lee and Saxena}}}
+\bibcite{liang2019pointnetgpd}{{27}{2019}{{Liang et~al.}}{{Liang, Ma, Li, G{\"o}rner, Tang, Fang, Sun and Zhang}}}
+\bibcite{liu2016ssd}{{28}{2016}{{Liu et~al.}}{{Liu, Anguelov, Erhan, Szegedy, Reed, Fu and Berg}}}
+\bibcite{mahler2017dex}{{29}{2017}{{Mahler et~al.}}{{Mahler, Liang, Niyaz, Laskey, Doan, Liu, Ojea and Goldberg}}}
+\bibcite{mahler2018dex}{{30}{2018}{{Mahler et~al.}}{{Mahler, Matl, Liu, Li, Gealy and Goldberg}}}
+\bibcite{mousavian20196}{{31}{2019}{{Mousavian et~al.}}{{Mousavian, Eppner and Fox}}}
+\bibcite{munoz2016fast}{{32}{2016}{{Mu{\~n}oz et~al.}}{{Mu{\~n}oz, Konishi, Murino and Del~Bue}}}
+\bibcite{ni2020pointnet++}{{33}{2020}{{Ni et~al.}}{{Ni, Zhang, Zhu and Cao}}}
+\bibcite{paigwar2019attentional}{{34}{2019}{{Paigwar et~al.}}{{Paigwar, Erkent, Wolf and Laugier}}}
+\bibcite{ten2017grasp}{{35}{2017}{{ten Pas et~al.}}{{ten Pas, Gualtieri, Saenko and Platt}}}
+\bibcite{peng2019pvnet}{{36}{2019}{{Peng et~al.}}{{Peng, Liu, Huang, Zhou and Bao}}}
+\bibcite{qi2019deep}{{37}{2019}{{Qi et~al.}}{{Qi, Litany, He and Guibas}}}
+\bibcite{qi2018frustum}{{38}{2018}{{Qi et~al.}}{{Qi, Liu, Wu, Su and Guibas}}}
+\bibcite{qi2017pointnet}{{39}{2017a}{{Qi et~al.}}{{Qi, Su, Mo and Guibas}}}
+\bibcite{qi2017pointnet++}{{40}{2017b}{{Qi et~al.}}{{Qi, Yi, Su and Guibas}}}
+\bibcite{rabbani2005efficient}{{41}{2005}{{Rabbani and Van Den~Heuvel}}{{}}}
+\bibcite{redmon2015real}{{42}{2015}{{Redmon and Angelova}}{{}}}
+\bibcite{ren2015faster}{{43}{2015}{{Ren et~al.}}{{Ren, He, Girshick and Sun}}}
+\bibcite{shi2019hierarchy}{{44}{2019}{{Shi et~al.}}{{Shi, Chang, Wu, Savva and Xu}}}
+\bibcite{silberberg1984iterative}{{45}{1984}{{Silberberg et~al.}}{{Silberberg, Davis and Harwood}}}
+\bibcite{song2016deep}{{46}{2016}{{Song and Xiao}}{{}}}
+\bibcite{tombari2010object}{{47}{2010}{{Tombari and Di~Stefano}}{{}}}
+\bibcite{vaswani2017attention}{{48}{2017}{{Vaswani et~al.}}{{Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser and Polosukhin}}}
+\bibcite{wang2019densefusion}{{49}{2019}{{Wang et~al.}}{{Wang, Xu, Zhu, Mart{\'\i }n-Mart{\'\i }n, Lu, Fei-Fei and Savarese}}}
+\bibcite{wang2018non}{{50}{2018}{{Wang et~al.}}{{Wang, Girshick, Gupta and He}}}
+\bibcite{woo2018cbam}{{51}{2018}{{Woo et~al.}}{{Woo, Park, Lee and Kweon}}}
+\bibcite{wu20196d}{{52}{2019}{{Wu et~al.}}{{Wu, Zhuang, Xiang, Zou and Li}}}
+\bibcite{xie2018attentional}{{53}{2018}{{Xie et~al.}}{{Xie, Liu, Chen and Tu}}}
+\bibcite{ye20183d}{{54}{2018}{{Ye et~al.}}{{Ye, Li, Huang, Du and Zhang}}}
+\bibcite{yue2018compact}{{55}{2018}{{Yue et~al.}}{{Yue, Sun, Yuan, Zhou, Ding and Xu}}}
+\bibcite{zeng2017multi}{{56}{2017}{{Zeng et~al.}}{{Zeng, Yu, Song, Suo, Walker, Rodriguez and Xiao}}}
+\bibcite{zhang2019pcan}{{57}{2019}{{Zhang and Xiao}}{{}}}
+\bibcite{zhao2020exploring}{{58}{2020}{{Zhao et~al.}}{{Zhao, Jia and Koltun}}}
+\bibcite{zhao2021point}{{59}{2021}{{Zhao et~al.}}{{Zhao, Jiang, Jia, Torr and Koltun}}}

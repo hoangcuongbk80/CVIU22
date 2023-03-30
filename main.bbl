@@ -1,0 +1,510 @@
+\begin{thebibliography}{59}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Inproceedings
+\bibitem[{Besl and McKay(1992)}]{besl1992method}
+\bibinfo{author}{Besl, P.J.}, \bibinfo{author}{McKay, N.D.},
+  \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{Method for registration of 3-d shapes}, in:
+  \bibinfo{booktitle}{Sensor fusion IV: control paradigms and data structures},
+  \bibinfo{organization}{Spie}. pp. \bibinfo{pages}{586--606}.
+%Type = Article
+\bibitem[{Bohg et~al.(2013)Bohg, Morales, Asfour and Kragic}]{bohg2013data}
+\bibinfo{author}{Bohg, J.}, \bibinfo{author}{Morales, A.},
+  \bibinfo{author}{Asfour, T.}, \bibinfo{author}{Kragic, D.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Data-driven grasp synthesis—a survey}.
+\newblock \bibinfo{journal}{IEEE Transactions on robotics}
+  \bibinfo{volume}{30}, \bibinfo{pages}{289--309}.
+%Type = Inproceedings
+\bibitem[{Buades et~al.(2005)Buades, Coll and Morel}]{buades2005non}
+\bibinfo{author}{Buades, A.}, \bibinfo{author}{Coll, B.},
+  \bibinfo{author}{Morel, J.M.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{A non-local algorithm for image denoising}, in:
+  \bibinfo{booktitle}{2005 IEEE Computer Society Conference on Computer Vision
+  and Pattern Recognition (CVPR'05)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{60--65}.
+%Type = Article
+\bibitem[{Choi et~al.(2018)Choi, Schwarting, DelPreto and
+  Rus}]{choi2018learning}
+\bibinfo{author}{Choi, C.}, \bibinfo{author}{Schwarting, W.},
+  \bibinfo{author}{DelPreto, J.}, \bibinfo{author}{Rus, D.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Learning object grasping for soft robot hands}.
+\newblock \bibinfo{journal}{IEEE Robotics and Automation Letters}
+  \bibinfo{volume}{3}, \bibinfo{pages}{2370--2377}.
+%Type = Inproceedings
+\bibitem[{Deng et~al.(2018)Deng, Birdal and Ilic}]{deng2018ppfnet}
+\bibinfo{author}{Deng, H.}, \bibinfo{author}{Birdal, T.},
+  \bibinfo{author}{Ilic, S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Ppfnet: Global context aware local features for
+  robust 3d point matching}, in: \bibinfo{booktitle}{Proceedings of the IEEE
+  conference on computer vision and pattern recognition}, pp.
+  \bibinfo{pages}{195--205}.
+%Type = Article
+\bibitem[{Dias et~al.(2014)Dias, Brites, Ascenso and Pereira}]{dias2014sift}
+\bibinfo{author}{Dias, A.S.}, \bibinfo{author}{Brites, C.},
+  \bibinfo{author}{Ascenso, J.}, \bibinfo{author}{Pereira, F.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Sift-based homographies for efficient multiview
+  distributed visual sensing}.
+\newblock \bibinfo{journal}{IEEE Sensors Journal} \bibinfo{volume}{15},
+  \bibinfo{pages}{2643--2656}.
+%Type = Article
+\bibitem[{Duda and Hart(1972)}]{duda1972textordfeminineuse}
+\bibinfo{author}{Duda, R.}, \bibinfo{author}{Hart, P.}, \bibinfo{year}{1972}.
+\newblock \bibinfo{title}{{\textordfeminine}use of the hough transform to
+  detect lines and curves in pictures, {\textordmasculine} comm}.
+\newblock \bibinfo{journal}{ACM} .
+%Type = Inproceedings
+\bibitem[{Fang et~al.(2020)Fang, Wang, Gou and Lu}]{fang2020graspnet}
+\bibinfo{author}{Fang, H.S.}, \bibinfo{author}{Wang, C.}, \bibinfo{author}{Gou,
+  M.}, \bibinfo{author}{Lu, C.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Graspnet-1billion: A large-scale benchmark for
+  general object grasping}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition}, pp.
+  \bibinfo{pages}{11444--11453}.
+%Type = Article
+\bibitem[{Feng et~al.(2020)Feng, Zhang, Lin, Gilani and Mian}]{feng2020point}
+\bibinfo{author}{Feng, M.}, \bibinfo{author}{Zhang, L.}, \bibinfo{author}{Lin,
+  X.}, \bibinfo{author}{Gilani, S.Z.}, \bibinfo{author}{Mian, A.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Point attention network for semantic segmentation of
+  3d point clouds}.
+\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{107},
+  \bibinfo{pages}{107446}.
+%Type = Inproceedings
+\bibitem[{Fu et~al.(2019)Fu, Liu, Tian, Li, Bao, Fang and Lu}]{fu2019dual}
+\bibinfo{author}{Fu, J.}, \bibinfo{author}{Liu, J.}, \bibinfo{author}{Tian,
+  H.}, \bibinfo{author}{Li, Y.}, \bibinfo{author}{Bao, Y.},
+  \bibinfo{author}{Fang, Z.}, \bibinfo{author}{Lu, H.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Dual attention network for scene segmentation}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp. \bibinfo{pages}{3146--3154}.
+%Type = Incollection
+\bibitem[{Gall and Lempitsky(2013)}]{gall2013class}
+\bibinfo{author}{Gall, J.}, \bibinfo{author}{Lempitsky, V.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Class-specific hough forests for object detection},
+  in: \bibinfo{booktitle}{Decision forests for computer vision and medical
+  image analysis}. \bibinfo{publisher}{Springer}, pp.
+  \bibinfo{pages}{143--157}.
+%Type = Article
+\bibitem[{Gall et~al.(2011)Gall, Yao, Razavi, Van~Gool and
+  Lempitsky}]{gall2011hough}
+\bibinfo{author}{Gall, J.}, \bibinfo{author}{Yao, A.}, \bibinfo{author}{Razavi,
+  N.}, \bibinfo{author}{Van~Gool, L.}, \bibinfo{author}{Lempitsky, V.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Hough forests for object detection, tracking, and
+  action recognition}.
+\newblock \bibinfo{journal}{IEEE transactions on pattern analysis and machine
+  intelligence} \bibinfo{volume}{33}, \bibinfo{pages}{2188--2202}.
+%Type = Inproceedings
+\bibitem[{Golemati et~al.(2006)Golemati, Stoitsis, Balkizas and
+  Nikita}]{golemati2006comparison}
+\bibinfo{author}{Golemati, S.}, \bibinfo{author}{Stoitsis, J.},
+  \bibinfo{author}{Balkizas, T.}, \bibinfo{author}{Nikita, K.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Comparison of b-mode, m-mode and hough transform
+  methods for measurement of arterial diastolic and systolic diameters}, in:
+  \bibinfo{booktitle}{2005 IEEE Engineering in Medicine and Biology 27th Annual
+  Conference}, \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1758--1761}.
+%Type = Inproceedings
+\bibitem[{Herzog et~al.(2012)Herzog, Pastor, Kalakrishnan, Righetti, Asfour and
+  Schaal}]{herzog2012template}
+\bibinfo{author}{Herzog, A.}, \bibinfo{author}{Pastor, P.},
+  \bibinfo{author}{Kalakrishnan, M.}, \bibinfo{author}{Righetti, L.},
+  \bibinfo{author}{Asfour, T.}, \bibinfo{author}{Schaal, S.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Template-based learning of grasp selection}, in:
+  \bibinfo{booktitle}{2012 IEEE International Conference on Robotics and
+  Automation}, \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{2379--2384}.
+%Type = Inproceedings
+\bibitem[{Hoang et~al.(2022)Hoang, Stork and Stoyanov}]{hoang2022context}
+\bibinfo{author}{Hoang, D.C.}, \bibinfo{author}{Stork, J.A.},
+  \bibinfo{author}{Stoyanov, T.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Context-aware grasp generation in cluttered scenes},
+  in: \bibinfo{booktitle}{IEEE International Conference on Robotics and
+  Automation (ICRA 2022), Philadelphia, USA, May 23-27, 2022}.
+%Type = Inproceedings
+\bibitem[{Hou et~al.(2019)Hou, Dai and Nie{\ss}ner}]{hou20193d}
+\bibinfo{author}{Hou, J.}, \bibinfo{author}{Dai, A.},
+  \bibinfo{author}{Nie{\ss}ner, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{3d-sis: 3d semantic instance segmentation of rgb-d
+  scans}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF conference on
+  computer vision and pattern recognition}, pp. \bibinfo{pages}{4421--4430}.
+%Type = Inproceedings
+\bibitem[{Hough(1959)}]{hough1959machine}
+\bibinfo{author}{Hough, P.V.}, \bibinfo{year}{1959}.
+\newblock \bibinfo{title}{Machine analysis of bubble chamber pictures}, in:
+  \bibinfo{booktitle}{Proc. of the International Conference on High Energy
+  Accelerators and Instrumentation, Sept. 1959}, pp. \bibinfo{pages}{554--556}.
+%Type = Misc
+\bibitem[{Hough(1962)}]{hough1962method}
+\bibinfo{author}{Hough, P.V.}, \bibinfo{year}{1962}.
+\newblock \bibinfo{title}{Method and means for recognizing complex patterns}.
+\newblock \bibinfo{note}{US Patent 3,069,654}.
+%Type = Inproceedings
+\bibitem[{Hu et~al.(2018a)Hu, Shen and Sun}]{hu2018squeeze}
+\bibinfo{author}{Hu, J.}, \bibinfo{author}{Shen, L.}, \bibinfo{author}{Sun,
+  G.}, \bibinfo{year}{2018}a.
+\newblock \bibinfo{title}{Squeeze-and-excitation networks}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pp. \bibinfo{pages}{7132--7141}.
+%Type = Article
+\bibitem[{Hu et~al.(2018b)Hu, Cai and Lai}]{hu2018semantic}
+\bibinfo{author}{Hu, S.M.}, \bibinfo{author}{Cai, J.X.}, \bibinfo{author}{Lai,
+  Y.K.}, \bibinfo{year}{2018}b.
+\newblock \bibinfo{title}{Semantic labeling and instance segmentation of 3d
+  point clouds using patch context analysis and multiscale processing}.
+\newblock \bibinfo{journal}{IEEE transactions on visualization and computer
+  graphics} \bibinfo{volume}{26}, \bibinfo{pages}{2485--2498}.
+%Type = Inproceedings
+\bibitem[{Huang et~al.(2019)Huang, Wang, Huang, Huang, Wei and
+  Liu}]{huang2019ccnet}
+\bibinfo{author}{Huang, Z.}, \bibinfo{author}{Wang, X.},
+  \bibinfo{author}{Huang, L.}, \bibinfo{author}{Huang, C.},
+  \bibinfo{author}{Wei, Y.}, \bibinfo{author}{Liu, W.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Ccnet: Criss-cross attention for semantic
+  segmentation}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  International Conference on Computer Vision}, pp. \bibinfo{pages}{603--612}.
+%Type = Inproceedings
+\bibitem[{Iocchi et~al.(2001)Iocchi, Mastrantuono and
+  Nardi}]{iocchi2001probabilistic}
+\bibinfo{author}{Iocchi, L.}, \bibinfo{author}{Mastrantuono, D.},
+  \bibinfo{author}{Nardi, D.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{A probabilistic approach to hough localization}, in:
+  \bibinfo{booktitle}{Proceedings 2001 ICRA. IEEE International Conference on
+  Robotics and Automation (Cat. No. 01CH37164)}, \bibinfo{organization}{IEEE}.
+  pp. \bibinfo{pages}{4250--4255}.
+%Type = Article
+\bibitem[{Kalviainen(1996)}]{kalviainen1996motion}
+\bibinfo{author}{Kalviainen, H.}, \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{Motion detection using the randomised hough
+  transform: exploiting gradient information and detecting multiple moving
+  objects}.
+\newblock \bibinfo{journal}{IEE Proceedings-Vision, Image and Signal
+  Processing} \bibinfo{volume}{143}, \bibinfo{pages}{361--369}.
+%Type = Inproceedings
+\bibitem[{Kehl et~al.(2017)Kehl, Manhardt, Tombari, Ilic and
+  Navab}]{kehl2017ssd}
+\bibinfo{author}{Kehl, W.}, \bibinfo{author}{Manhardt, F.},
+  \bibinfo{author}{Tombari, F.}, \bibinfo{author}{Ilic, S.},
+  \bibinfo{author}{Navab, N.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Ssd-6d: Making rgb-based 3d detection and 6d pose
+  estimation great again}, in: \bibinfo{booktitle}{Proceedings of the IEEE
+  international conference on computer vision}, pp.
+  \bibinfo{pages}{1521--1529}.
+%Type = Inproceedings
+\bibitem[{Kehl et~al.(2016)Kehl, Milletari, Tombari, Ilic and
+  Navab}]{kehl2016deep}
+\bibinfo{author}{Kehl, W.}, \bibinfo{author}{Milletari, F.},
+  \bibinfo{author}{Tombari, F.}, \bibinfo{author}{Ilic, S.},
+  \bibinfo{author}{Navab, N.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Deep learning of local rgb-d patches for 3d object
+  detection and 6d pose estimation}, in: \bibinfo{booktitle}{European
+  conference on computer vision}, \bibinfo{organization}{Springer}. pp.
+  \bibinfo{pages}{205--220}.
+%Type = Article
+\bibitem[{Lenz et~al.(2015)Lenz, Lee and Saxena}]{lenz2015deep}
+\bibinfo{author}{Lenz, I.}, \bibinfo{author}{Lee, H.}, \bibinfo{author}{Saxena,
+  A.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Deep learning for detecting robotic grasps}.
+\newblock \bibinfo{journal}{The International Journal of Robotics Research}
+  \bibinfo{volume}{34}, \bibinfo{pages}{705--724}.
+%Type = Inproceedings
+\bibitem[{Liang et~al.(2019)Liang, Ma, Li, G{\"o}rner, Tang, Fang, Sun and
+  Zhang}]{liang2019pointnetgpd}
+\bibinfo{author}{Liang, H.}, \bibinfo{author}{Ma, X.}, \bibinfo{author}{Li,
+  S.}, \bibinfo{author}{G{\"o}rner, M.}, \bibinfo{author}{Tang, S.},
+  \bibinfo{author}{Fang, B.}, \bibinfo{author}{Sun, F.},
+  \bibinfo{author}{Zhang, J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Pointnetgpd: Detecting grasp configurations from
+  point sets}, in: \bibinfo{booktitle}{2019 International Conference on
+  Robotics and Automation (ICRA)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{3629--3635}.
+%Type = Inproceedings
+\bibitem[{Liu et~al.(2016)Liu, Anguelov, Erhan, Szegedy, Reed, Fu and
+  Berg}]{liu2016ssd}
+\bibinfo{author}{Liu, W.}, \bibinfo{author}{Anguelov, D.},
+  \bibinfo{author}{Erhan, D.}, \bibinfo{author}{Szegedy, C.},
+  \bibinfo{author}{Reed, S.}, \bibinfo{author}{Fu, C.Y.},
+  \bibinfo{author}{Berg, A.C.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Ssd: Single shot multibox detector}, in:
+  \bibinfo{booktitle}{European conference on computer vision},
+  \bibinfo{organization}{Springer}. pp. \bibinfo{pages}{21--37}.
+%Type = Article
+\bibitem[{Mahler et~al.(2017)Mahler, Liang, Niyaz, Laskey, Doan, Liu, Ojea and
+  Goldberg}]{mahler2017dex}
+\bibinfo{author}{Mahler, J.}, \bibinfo{author}{Liang, J.},
+  \bibinfo{author}{Niyaz, S.}, \bibinfo{author}{Laskey, M.},
+  \bibinfo{author}{Doan, R.}, \bibinfo{author}{Liu, X.}, \bibinfo{author}{Ojea,
+  J.A.}, \bibinfo{author}{Goldberg, K.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Dex-net 2.0: Deep learning to plan robust grasps with
+  synthetic point clouds and analytic grasp metrics}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:1703.09312} .
+%Type = Inproceedings
+\bibitem[{Mahler et~al.(2018)Mahler, Matl, Liu, Li, Gealy and
+  Goldberg}]{mahler2018dex}
+\bibinfo{author}{Mahler, J.}, \bibinfo{author}{Matl, M.}, \bibinfo{author}{Liu,
+  X.}, \bibinfo{author}{Li, A.}, \bibinfo{author}{Gealy, D.},
+  \bibinfo{author}{Goldberg, K.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Dex-net 3.0: Computing robust vacuum suction grasp
+  targets in point clouds using a new analytic model and deep learning}, in:
+  \bibinfo{booktitle}{2018 IEEE International Conference on robotics and
+  automation (ICRA)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{5620--5627}.
+%Type = Inproceedings
+\bibitem[{Mousavian et~al.(2019)Mousavian, Eppner and Fox}]{mousavian20196}
+\bibinfo{author}{Mousavian, A.}, \bibinfo{author}{Eppner, C.},
+  \bibinfo{author}{Fox, D.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{6-dof graspnet: Variational grasp generation for
+  object manipulation}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  International Conference on Computer Vision}, pp.
+  \bibinfo{pages}{2901--2910}.
+%Type = Inproceedings
+\bibitem[{Mu{\~n}oz et~al.(2016)Mu{\~n}oz, Konishi, Murino and
+  Del~Bue}]{munoz2016fast}
+\bibinfo{author}{Mu{\~n}oz, E.}, \bibinfo{author}{Konishi, Y.},
+  \bibinfo{author}{Murino, V.}, \bibinfo{author}{Del~Bue, A.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Fast 6d pose estimation for texture-less objects from
+  a single rgb image}, in: \bibinfo{booktitle}{2016 IEEE International
+  Conference on Robotics and Automation (ICRA)}, \bibinfo{organization}{IEEE}.
+  pp. \bibinfo{pages}{5623--5630}.
+%Type = Inproceedings
+\bibitem[{Ni et~al.(2020)Ni, Zhang, Zhu and Cao}]{ni2020pointnet++}
+\bibinfo{author}{Ni, P.}, \bibinfo{author}{Zhang, W.}, \bibinfo{author}{Zhu,
+  X.}, \bibinfo{author}{Cao, Q.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Pointnet++ grasping: learning an end-to-end spatial
+  grasp generation algorithm from sparse point clouds}, in:
+  \bibinfo{booktitle}{2020 IEEE International Conference on Robotics and
+  Automation (ICRA)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{3619--3625}.
+%Type = Inproceedings
+\bibitem[{Paigwar et~al.(2019)Paigwar, Erkent, Wolf and
+  Laugier}]{paigwar2019attentional}
+\bibinfo{author}{Paigwar, A.}, \bibinfo{author}{Erkent, O.},
+  \bibinfo{author}{Wolf, C.}, \bibinfo{author}{Laugier, C.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Attentional pointnet for 3d-object detection in point
+  clouds}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference on
+  Computer Vision and Pattern Recognition Workshops}, pp.
+  \bibinfo{pages}{0--0}.
+%Type = Article
+\bibitem[{ten Pas et~al.(2017)ten Pas, Gualtieri, Saenko and
+  Platt}]{ten2017grasp}
+\bibinfo{author}{ten Pas, A.}, \bibinfo{author}{Gualtieri, M.},
+  \bibinfo{author}{Saenko, K.}, \bibinfo{author}{Platt, R.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Grasp pose detection in point clouds}.
+\newblock \bibinfo{journal}{The International Journal of Robotics Research}
+  \bibinfo{volume}{36}, \bibinfo{pages}{1455--1473}.
+%Type = Inproceedings
+\bibitem[{Peng et~al.(2019)Peng, Liu, Huang, Zhou and Bao}]{peng2019pvnet}
+\bibinfo{author}{Peng, S.}, \bibinfo{author}{Liu, Y.}, \bibinfo{author}{Huang,
+  Q.}, \bibinfo{author}{Zhou, X.}, \bibinfo{author}{Bao, H.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Pvnet: Pixel-wise voting network for 6dof pose
+  estimation}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference
+  on Computer Vision and Pattern Recognition}, pp. \bibinfo{pages}{4561--4570}.
+%Type = Inproceedings
+\bibitem[{Qi et~al.(2019)Qi, Litany, He and Guibas}]{qi2019deep}
+\bibinfo{author}{Qi, C.R.}, \bibinfo{author}{Litany, O.}, \bibinfo{author}{He,
+  K.}, \bibinfo{author}{Guibas, L.J.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Deep hough voting for 3d object detection in point
+  clouds}, in: \bibinfo{booktitle}{proceedings of the IEEE/CVF International
+  Conference on Computer Vision}, pp. \bibinfo{pages}{9277--9286}.
+%Type = Inproceedings
+\bibitem[{Qi et~al.(2018)Qi, Liu, Wu, Su and Guibas}]{qi2018frustum}
+\bibinfo{author}{Qi, C.R.}, \bibinfo{author}{Liu, W.}, \bibinfo{author}{Wu,
+  C.}, \bibinfo{author}{Su, H.}, \bibinfo{author}{Guibas, L.J.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Frustum pointnets for 3d object detection from rgb-d
+  data}, in: \bibinfo{booktitle}{Proceedings of the IEEE conference on computer
+  vision and pattern recognition}, pp. \bibinfo{pages}{918--927}.
+%Type = Inproceedings
+\bibitem[{Qi et~al.(2017a)Qi, Su, Mo and Guibas}]{qi2017pointnet}
+\bibinfo{author}{Qi, C.R.}, \bibinfo{author}{Su, H.}, \bibinfo{author}{Mo, K.},
+  \bibinfo{author}{Guibas, L.J.}, \bibinfo{year}{2017}a.
+\newblock \bibinfo{title}{Pointnet: Deep learning on point sets for 3d
+  classification and segmentation}, in: \bibinfo{booktitle}{Proceedings of the
+  IEEE conference on computer vision and pattern recognition}, pp.
+  \bibinfo{pages}{652--660}.
+%Type = Article
+\bibitem[{Qi et~al.(2017b)Qi, Yi, Su and Guibas}]{qi2017pointnet++}
+\bibinfo{author}{Qi, C.R.}, \bibinfo{author}{Yi, L.}, \bibinfo{author}{Su, H.},
+  \bibinfo{author}{Guibas, L.J.}, \bibinfo{year}{2017}b.
+\newblock \bibinfo{title}{Pointnet++: Deep hierarchical feature learning on
+  point sets in a metric space}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{30}.
+%Type = Article
+\bibitem[{Rabbani and Van Den~Heuvel(2005)}]{rabbani2005efficient}
+\bibinfo{author}{Rabbani, T.}, \bibinfo{author}{Van Den~Heuvel, F.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Efficient hough transform for automatic detection of
+  cylinders in point clouds}.
+\newblock \bibinfo{journal}{Isprs Wg Iii/3, Iii/4} \bibinfo{volume}{3},
+  \bibinfo{pages}{60--65}.
+%Type = Inproceedings
+\bibitem[{Redmon and Angelova(2015)}]{redmon2015real}
+\bibinfo{author}{Redmon, J.}, \bibinfo{author}{Angelova, A.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Real-time grasp detection using convolutional neural
+  networks}, in: \bibinfo{booktitle}{2015 IEEE international conference on
+  robotics and automation (ICRA)}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{1316--1322}.
+%Type = Article
+\bibitem[{Ren et~al.(2015)Ren, He, Girshick and Sun}]{ren2015faster}
+\bibinfo{author}{Ren, S.}, \bibinfo{author}{He, K.}, \bibinfo{author}{Girshick,
+  R.}, \bibinfo{author}{Sun, J.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Faster r-cnn: Towards real-time object detection with
+  region proposal networks}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{28}.
+%Type = Inproceedings
+\bibitem[{Shi et~al.(2019)Shi, Chang, Wu, Savva and Xu}]{shi2019hierarchy}
+\bibinfo{author}{Shi, Y.}, \bibinfo{author}{Chang, A.X.}, \bibinfo{author}{Wu,
+  Z.}, \bibinfo{author}{Savva, M.}, \bibinfo{author}{Xu, K.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Hierarchy denoising recursive autoencoders for 3d
+  scene layout prediction}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition}, pp.
+  \bibinfo{pages}{1771--1780}.
+%Type = Article
+\bibitem[{Silberberg et~al.(1984)Silberberg, Davis and
+  Harwood}]{silberberg1984iterative}
+\bibinfo{author}{Silberberg, T.M.}, \bibinfo{author}{Davis, L.},
+  \bibinfo{author}{Harwood, D.}, \bibinfo{year}{1984}.
+\newblock \bibinfo{title}{An iterative hough procedure for three-dimensional
+  object recognition}.
+\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{17},
+  \bibinfo{pages}{621--629}.
+%Type = Inproceedings
+\bibitem[{Song and Xiao(2016)}]{song2016deep}
+\bibinfo{author}{Song, S.}, \bibinfo{author}{Xiao, J.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Deep sliding shapes for amodal 3d object detection in
+  rgb-d images}, in: \bibinfo{booktitle}{Proceedings of the IEEE conference on
+  computer vision and pattern recognition}, pp. \bibinfo{pages}{808--816}.
+%Type = Inproceedings
+\bibitem[{Tombari and Di~Stefano(2010)}]{tombari2010object}
+\bibinfo{author}{Tombari, F.}, \bibinfo{author}{Di~Stefano, L.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Object recognition in 3d scenes with occlusions and
+  clutter by hough voting}, in: \bibinfo{booktitle}{2010 Fourth Pacific-Rim
+  Symposium on Image and Video Technology}, \bibinfo{organization}{IEEE}. pp.
+  \bibinfo{pages}{349--355}.
+%Type = Article
+\bibitem[{Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones,
+  Gomez, Kaiser and Polosukhin}]{vaswani2017attention}
+\bibinfo{author}{Vaswani, A.}, \bibinfo{author}{Shazeer, N.},
+  \bibinfo{author}{Parmar, N.}, \bibinfo{author}{Uszkoreit, J.},
+  \bibinfo{author}{Jones, L.}, \bibinfo{author}{Gomez, A.N.},
+  \bibinfo{author}{Kaiser, {\L}.}, \bibinfo{author}{Polosukhin, I.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Attention is all you need}.
+\newblock \bibinfo{journal}{Advances in neural information processing systems}
+  \bibinfo{volume}{30}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2019)Wang, Xu, Zhu, Mart{\'\i}n-Mart{\'\i}n, Lu, Fei-Fei
+  and Savarese}]{wang2019densefusion}
+\bibinfo{author}{Wang, C.}, \bibinfo{author}{Xu, D.}, \bibinfo{author}{Zhu,
+  Y.}, \bibinfo{author}{Mart{\'\i}n-Mart{\'\i}n, R.}, \bibinfo{author}{Lu, C.},
+  \bibinfo{author}{Fei-Fei, L.}, \bibinfo{author}{Savarese, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Densefusion: 6d object pose estimation by iterative
+  dense fusion}, in: \bibinfo{booktitle}{Proceedings of the IEEE/CVF conference
+  on computer vision and pattern recognition}, pp. \bibinfo{pages}{3343--3352}.
+%Type = Inproceedings
+\bibitem[{Wang et~al.(2018)Wang, Girshick, Gupta and He}]{wang2018non}
+\bibinfo{author}{Wang, X.}, \bibinfo{author}{Girshick, R.},
+  \bibinfo{author}{Gupta, A.}, \bibinfo{author}{He, K.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Non-local neural networks}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pp. \bibinfo{pages}{7794--7803}.
+%Type = Inproceedings
+\bibitem[{Woo et~al.(2018)Woo, Park, Lee and Kweon}]{woo2018cbam}
+\bibinfo{author}{Woo, S.}, \bibinfo{author}{Park, J.}, \bibinfo{author}{Lee,
+  J.Y.}, \bibinfo{author}{Kweon, I.S.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Cbam: Convolutional block attention module}, in:
+  \bibinfo{booktitle}{Proceedings of the European conference on computer vision
+  (ECCV)}, pp. \bibinfo{pages}{3--19}.
+%Type = Inproceedings
+\bibitem[{Wu et~al.(2019)Wu, Zhuang, Xiang, Zou and Li}]{wu20196d}
+\bibinfo{author}{Wu, D.}, \bibinfo{author}{Zhuang, Z.}, \bibinfo{author}{Xiang,
+  C.}, \bibinfo{author}{Zou, W.}, \bibinfo{author}{Li, X.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{6d-vnet: End-to-end 6-dof vehicle pose estimation
+  from monocular rgb images}, in: \bibinfo{booktitle}{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pp. \bibinfo{pages}{0--0}.
+%Type = Inproceedings
+\bibitem[{Xie et~al.(2018)Xie, Liu, Chen and Tu}]{xie2018attentional}
+\bibinfo{author}{Xie, S.}, \bibinfo{author}{Liu, S.}, \bibinfo{author}{Chen,
+  Z.}, \bibinfo{author}{Tu, Z.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Attentional shapecontextnet for point cloud
+  recognition}, in: \bibinfo{booktitle}{Proceedings of the IEEE Conference on
+  Computer Vision and Pattern Recognition}, pp. \bibinfo{pages}{4606--4615}.
+%Type = Inproceedings
+\bibitem[{Ye et~al.(2018)Ye, Li, Huang, Du and Zhang}]{ye20183d}
+\bibinfo{author}{Ye, X.}, \bibinfo{author}{Li, J.}, \bibinfo{author}{Huang,
+  H.}, \bibinfo{author}{Du, L.}, \bibinfo{author}{Zhang, X.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{3d recurrent neural networks with context fusion for
+  point cloud semantic segmentation}, in: \bibinfo{booktitle}{Proceedings of
+  the European conference on computer vision (ECCV)}, pp.
+  \bibinfo{pages}{403--417}.
+%Type = Inproceedings
+\bibitem[{Yue et~al.(2018)Yue, Sun, Yuan, Zhou, Ding and Xu}]{yue2018compact}
+\bibinfo{author}{Yue, K.}, \bibinfo{author}{Sun, M.}, \bibinfo{author}{Yuan,
+  Y.}, \bibinfo{author}{Zhou, F.}, \bibinfo{author}{Ding, E.},
+  \bibinfo{author}{Xu, F.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Compact generalized non-local network}, in:
+  \bibinfo{booktitle}{Advances in Neural Information Processing Systems}, pp.
+  \bibinfo{pages}{6510--6519}.
+%Type = Inproceedings
+\bibitem[{Zeng et~al.(2017)Zeng, Yu, Song, Suo, Walker, Rodriguez and
+  Xiao}]{zeng2017multi}
+\bibinfo{author}{Zeng, A.}, \bibinfo{author}{Yu, K.T.}, \bibinfo{author}{Song,
+  S.}, \bibinfo{author}{Suo, D.}, \bibinfo{author}{Walker, E.},
+  \bibinfo{author}{Rodriguez, A.}, \bibinfo{author}{Xiao, J.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Multi-view self-supervised deep learning for 6d pose
+  estimation in the amazon picking challenge}, in: \bibinfo{booktitle}{2017
+  IEEE international conference on robotics and automation (ICRA)},
+  \bibinfo{organization}{IEEE}. pp. \bibinfo{pages}{1386--1383}.
+%Type = Inproceedings
+\bibitem[{Zhang and Xiao(2019)}]{zhang2019pcan}
+\bibinfo{author}{Zhang, W.}, \bibinfo{author}{Xiao, C.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Pcan: 3d attention map learning using contextual
+  information for point cloud based retrieval}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp. \bibinfo{pages}{12436--12445}.
+%Type = Inproceedings
+\bibitem[{Zhao et~al.(2020)Zhao, Jia and Koltun}]{zhao2020exploring}
+\bibinfo{author}{Zhao, H.}, \bibinfo{author}{Jia, J.}, \bibinfo{author}{Koltun,
+  V.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Exploring self-attention for image recognition}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp. \bibinfo{pages}{10076--10085}.
+%Type = Inproceedings
+\bibitem[{Zhao et~al.(2021)Zhao, Jiang, Jia, Torr and Koltun}]{zhao2021point}
+\bibinfo{author}{Zhao, H.}, \bibinfo{author}{Jiang, L.}, \bibinfo{author}{Jia,
+  J.}, \bibinfo{author}{Torr, P.H.}, \bibinfo{author}{Koltun, V.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Point transformer}, in:
+  \bibinfo{booktitle}{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pp. \bibinfo{pages}{16259--16268}.
+
+\end{thebibliography}

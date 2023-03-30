@@ -1,0 +1,116 @@
+%% This is file `ycviu-template.tex',
+%% 
+%% Copyright 2013 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+%% Template article for Elsevier's document class `elsarticle'
+%% with harvard style bibliographic references
+%%
+%% $Id: ycviu-template-with-authorship.tex 69 2016-07-29 10:15:25Z aptara $
+%%
+%% This template has no review option
+%% 
+%% Use the options `twocolumn,final' to obtain the final layout
+\documentclass[times,referee,twocolumn,final,authoryear]{elsarticle}
+
+%% Stylefile to load YCVIU template
+\usepackage{ycviu}
+\usepackage{framed,multirow}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\usepackage{amsfonts}
+\usepackage{bigdelim}
+%\usepackage[section]{placeins}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Following three lines are needed for this document.
+% If you are not loading colors or url, then these are
+% not required.
+\usepackage{url}
+\usepackage{xcolor}
+\definecolor{newcolor}{rgb}{.8,.349,.1}
+
+\journal{Computer Vision and Image Understanding}
+
+\begin{document}
+
+\setcounter{page}{1}
+
+\begin{frontmatter}
+
+\title{Attention mechanism for collision-free grasp detection from 3D point clouds}
+
+\author[1]{Dinh-Cuong \snm{Hoang}\corref{cor1}} 
+\cortext[cor1]{Corresponding author: 
+  Tel.: +0-000-000-0000;  
+  fax: +0-000-000-0000;}
+\ead{hoangcuongbk80@gmail.com; cuonghd7@fe.edu.vn}
+\author[1]{Bao-Long \snm{Tran}}
+%\author[2]{Given-name \snm{Surname}}
+
+\address[1]{ICT Department, FPT University, Hanoi, Vietnam}
+%\address[2]{Affiliation 2, Address, City and Postal Code, Country}
+
+\received{1 May 2013}
+\finalform{10 May 2013}
+\accepted{13 May 2013}
+\availableonline{15 May 2013}
+\communicated{S. Sarkar}
+
+\begin{abstract}
+
+Grasp detection is a challenging and important task in robotics and computer vision. Many existing methods require time-consuming multi-stage processing for sampling grasp candidates and evaluating the grasp quality. While several works proposed end-to-end models for 6-DOF grasp detection and achieved state-of-the-art results in benchmarks. However, most of these models treat all points in a scene equally without focusing on the more relevant regions, which greatly harms the speed and accuracy. Inspired by the success of the attention mechanism in various computer vision tasks, this work discovers the power of the attention mechanism to boost the performance of grasp detection from 3D point clouds. To achieve this, taking the recent  VoteGrasp (\textcolor{cyan}{\cite{hoang2022context}}) as a basic pipeline, we integrate different attention modules into the end-to-end grasp detection network and provides insights into the potential of these modules.
+
+\end{abstract}
+
+\begin{keyword}
+\MSC 41A05\sep 41A10\sep 65D05\sep 65D17
+\KWD Keyword1\sep Keyword2\sep Keyword3
+
+ MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+\end{keyword}
+
+\end{frontmatter}
+
+%\linenumbers
+
+%% main text
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Introduction} 
+%
+\input{RelatedWork}
+%
+\input{Method}
+%
+\input{Results}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\bibliographystyle{model2-names}
+\bibliography{refs}
+
+\end{document}
+
+%%
